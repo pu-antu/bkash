@@ -16,8 +16,6 @@ class BkashServiceProvider extends ServiceProvider
          $this->publishes([
              __DIR__ . '/Config/bkash.php' => config_path('bkash.php'),
          ]);
-        $this->loadroutesfrom(__DIR__.'/routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/views', 'bkash');
     }
 
     /**
@@ -37,10 +35,9 @@ class BkashServiceProvider extends ServiceProvider
      */
     private function registerBkash()
     {
-        // $this->app->singleton('Bkash', function ($app) {
-        //     return new Bkash();
-        // });
-
+         $this->app->singleton('Bkash', function ($app) {
+             return new Bkash();
+         });
     }
 
 }
