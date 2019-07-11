@@ -7,7 +7,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Ps\\Bkash\\": "src/"
+            "Tw\\Bkash\\": "src/"
         }
     }
 }

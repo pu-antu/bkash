@@ -1,6 +1,6 @@
 <?php
 
-namespace Ps\Bkash;
+namespace Tw\Bkash;
 
 class Bkash
 {
