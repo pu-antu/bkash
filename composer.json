@@ -1,5 +1,5 @@
 {
-    "name": "sagar/bkash",
+    "name": "ps/bkash",
     "description": "Bkash paymeny getway",
     "type": "library",
     "license": "MIT",
@@ -7,7 +7,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Sagar\\Bkash\\": "src/"
+            "Ps\\Bkash\\": "src/"
         }
     }
 }
