@@ -15,5 +15,12 @@
         "psr-4": {
             "Pstw\\Bkash\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pstw\\Bkash\\BkashServiceProvider"
+            ]
+        }
     }
 }
