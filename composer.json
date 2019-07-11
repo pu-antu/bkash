@@ -1,0 +1,13 @@
+{
+    "name": "sagar/bkash",
+    "description": "Bkash paymeny getway",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sagar\\Bkash\\": "src/"
+        }
+    },
+}
