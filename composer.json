@@ -3,7 +3,14 @@
     "description": "Bkash paymeny getway",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Sagar Paul",
+            "email": "taylor@laravel.com"
+        }
+    ],
     "require": {},
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Pstw\\Bkash\\": "src/"
